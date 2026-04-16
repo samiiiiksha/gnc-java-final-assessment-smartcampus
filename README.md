@@ -4,9 +4,10 @@ Create a menu-driven Java application that manages students, courses, and enroll
 
 
 
+
 The system supports the following operations via an interactive menu:
 
-1. Add students and courses to the system
+1\. Add students and courses to the system
 
 2\. Enroll students into one or more courses
 
@@ -27,12 +28,9 @@ The system supports the following operations via an interactive menu:
 **1. Student.java**
 
 
+- Represents a student entity in the system.
 
-Represents a student entity in the system.
-
-
-
-Stores student details:
+- Stores student details:
 
 &#x09;studentId
 
@@ -40,17 +38,16 @@ Stores student details:
 
 &#x09;studentEmail
 
-Provides a constructor to initialize student objects
+- Provides a constructor to initialize student objects
 
 
 
 **2. Courses.java**
 
 
+- Represents a course entity.
 
-Represents a course entity.
-
-Stores course details:
+- Stores course details:
 
 &#x09;courseId
 
@@ -58,21 +55,18 @@ Stores course details:
 
 &#x09;courseFee
 
-Used to manage available courses in the system
+- Used to manage available courses in the system
 
 
 
 **3. Main.java**
 
 
+- The main driver class that runs the application.
 
-The main driver class that runs the application.
+- Provides a menu-driven interface for user interaction
 
-
-
-Provides a menu-driven interface for user interaction
-
-Manages:
+- Manages:
 
 &#x09;Student list (ArrayList)
 
@@ -102,12 +96,12 @@ Manages:
 
 1. Compile all files:
 
-javac Main.java Student.java Courses.java
+    javac Main.java Student.java Courses.java
 
 2. Run the main file:
 
 
-&#x20;    java Main.java
+    java Main.java
 
 
 
