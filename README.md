@@ -33,11 +33,11 @@ The system supports the following operations via an interactive menu:
 
 - Stores student details:
 
-&#x09;studentId
+     studentId
 
-&#x09;name
+     name
 
-&#x09;studentEmail
+     studentEmail
 
 - Provides a constructor to initialize student objects
 
@@ -50,11 +50,11 @@ The system supports the following operations via an interactive menu:
 
 - Stores course details:
 
-&#x09;courseId
+     courseId
 
-&#x09;courseName
+     courseName
 
-&#x09;courseFee
+     courseFee
 
 - Used to manage available courses in the system
 
@@ -69,25 +69,25 @@ The system supports the following operations via an interactive menu:
 
 - Manages:
 
-&#x09;Student list (ArrayList)
+     Student list (ArrayList)
 
-&#x09;Course list (ArrayList)
+     Course list (ArrayList)
 
-&#x09;Enrollment records (HashMap)
+     Enrollment records (HashMap)
 
-&#x09;Core features:
+- Core features:
 
-&#x09;Add Student
+     Add Student
 
-&#x09;Add Course
+     Add Course
 
-&#x09;Enroll Student in Course
+     Enroll Student in Course
 
-&#x09;View Students
+     View Students
 
-&#x09;View Enrollments
+     View Enrollments
 
-&#x09;Process Enrollments
+     Process Enrollments
 
 
 
