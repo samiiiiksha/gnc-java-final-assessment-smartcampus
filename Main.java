@@ -262,6 +262,9 @@ public class Main {
         while (true) {
             Scanner sc = new Scanner(System.in);
             System.out.println("\n-------------------------------------");
+            System.out.println("          SMART CAMPUS SYSTEM");
+            System.out.println("-------------------------------------");
+            System.out.println("-------------------------------------");
             System.out.println("              Main Menu");
             System.out.println("-------------------------------------");
             System.out.println("         [ 1.] Add Student");
